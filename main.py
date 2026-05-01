@@ -12,7 +12,7 @@ class App(ctk.CTk):
     def __init__(self):
         super().__init__()
 
-        self.title("FALTAS- INFORMÁTICA PARA INTERNET")
+        self.title("FALTAS - INFORMÁTICA PARA INTERNET")
         self.geometry("600x750")
 
         self.grid_columnconfigure(0, weight=1)
